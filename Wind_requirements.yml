@@ -1,0 +1,35 @@
+name: wind_atlas_env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python>=3.10
+
+  - cdsapi
+  - earthaccess
+  - pyesgf
+  - requests
+
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - netcdf4
+  - dask
+  - intake
+
+  - geopandas
+  - shapely
+  - rasterio
+  - rioxarray
+
+  - scikit-learn
+
+  - matplotlib
+  - cartopy
+  - proplot
+
+  - pyhdf
+
+  - pip

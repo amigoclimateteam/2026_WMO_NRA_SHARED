@@ -1,0 +1,54 @@
+name: solar_atlas_env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+
+  # Downloads
+  - cdsapi
+  - earthaccess
+  - pyesgf
+  - requests
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - dask
+  - bottleneck
+  - netcdf4
+  - h5netcdf
+
+  # GIS
+  - geopandas
+  - shapely
+  - pyproj
+  - fiona
+  - rasterio
+  - rioxarray
+  - cartopy
+  - odc-geo
+  - rtree
+
+  # Terrain analysis
+  - xdem
+
+  # Machine learning
+  - scikit-learn
+
+  # Excel
+  - openpyxl
+
+  # Plotting
+  - matplotlib
+  - proplot
+
+  # Satellite products
+  - pyhdf
+
+  # Utilities
+  - python-dateutil
+  

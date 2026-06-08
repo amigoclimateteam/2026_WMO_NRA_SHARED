@@ -1,0 +1,40 @@
+name: hydro_atlas_env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+
+  - cdsapi
+  - pyesgf
+
+  - xarray
+  - netcdf4
+  - rioxarray
+
+  - numpy
+  - pandas
+  - scipy
+
+  - geopandas
+  - shapely
+  - pyproj
+  - fiona
+  - pyogrio
+
+  - rasterio
+  - rasterstats
+
+  - matplotlib
+  - cartopy
+  - proplot
+
+  - python-dateutil
+  - requests
+  - tqdm
+
+  - jupyterlab
+  - notebook
+  - ipykernel
+  
