@@ -2,7 +2,7 @@
 
 This project uses river network data from the **HydroRIVERS** dataset, developed by **HydroSHEDS**.
 
-HydroRIVERS is a globally consistent vector database of river networks derived from HydroSHEDS hydrographic data. It provides river reaches represented as line features and includes attributes such as river order, reach length, upstream drainage area, estimated discharge, and connectivity information. The dataset is widely used for hydrological modelling, river network analysis, climate impact assessments, and water resource studies. :contentReference[oaicite:0]{index=0}
+HydroRIVERS is a globally consistent vector database of river networks derived from HydroSHEDS hydrographic data. It provides river reaches represented as line features and includes attributes such as river order, reach length, upstream drainage area, estimated discharge, and connectivity information. The dataset is widely used for hydrological modelling, river network analysis, climate impact assessments, and water resource studies.
 
 ## Downloading the Data
 
@@ -10,8 +10,7 @@ Download the HydroRIVERS dataset from the official HydroSHEDS website:
 
 https://www.hydrosheds.org/products/hydrorivers
 
-For this project, download the **South America (SA)** shapefile dataset. :contentReference[oaicite:1]{index=1}
-
+For this project, download the **South America (SA)** shapefile dataset. 
 The downloaded archive is typically named:
 
 ```text
@@ -22,7 +21,7 @@ After downloading, extract the archive.
 
 ## Dataset Contents
 
-HydroRIVERS contains river reaches represented as vector line features. Rivers are extracted from HydroSHEDS and include all river segments with a catchment area of at least 10 km² or an average discharge of at least 0.1 m³/s. Each river reach includes several useful attributes describing the river network topology and geometry. :contentReference[oaicite:2]{index=2}
+HydroRIVERS contains river reaches represented as vector line features. Rivers are extracted from HydroSHEDS and include all river segments with a catchment area of at least 10 km² or an average discharge of at least 0.1 m³/s. Each river reach includes several useful attributes describing the river network topology and geometry. 
 
 Some commonly used attributes include:
 
