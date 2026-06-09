@@ -43,10 +43,10 @@ Extend the pipeline to **CMIP6** simulations (historical + future scenarios), co
 ## Examples of output
 
 ### Hydropower NRA output example  
-![Hydropower example](data/figures/tanzania_l5_hydro_annual.png)
+![Hydropower example](data/figures/example/dis24_integrated_ecuador_annual_level12.png)
 
 ### Wind NRA output example  
-![Wind example](data/figures/cuba_wind_annual_present.png)
+![Wind example](data/figures/example/wds_integrated_chile_annual.png)
 
 ### Solar NRA output example   
-![Solar example](data/figures/croatia_solar_annual_present.png)
+![Solar example](data/figures/example/ssrd_integrated_peru_annual.png)
