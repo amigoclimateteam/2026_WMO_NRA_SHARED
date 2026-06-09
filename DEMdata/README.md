@@ -40,7 +40,24 @@ In addition to the ERA5-Land geopotential, the workflow requires the **Copernicu
 
 The Copernicus DEM GLO-90 is a global Digital Elevation Model with approximately 90 m spatial resolution and is used to provide detailed terrain information for each country.
 
-Documentation and download information are available through the Copernicus Data Space Ecosystem.
+The dataset is not included in this repository and must be downloaded separately.
+
+### Downloading the Data
+
+The GLO-90 DEM can be downloaded through the OpenTopography portal:
+
+https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.1
+
+To download the data:
+
+1. Open the OpenTopography portal.
+2. Navigate to the country or region of interest.
+3. Select the DEM tile(s) covering the entire national territory.
+4. Keep **GeoTIFF** as the output format.
+5. Download the selected file(s).
+
+Depending on the size and location of the country, multiple DEM tiles may be required to achieve complete coverage.
+
 
 ## Country-Specific Folders
 
@@ -64,12 +81,12 @@ Example:
 ```text
 orography_data/
 ├── argentina/
-│   ├── Copernicus_DSM_90m_...
-│   ├── Copernicus_DSM_90m_...
+│   ├── glo90_...
 │   └── ...
 │
 ├── chile/
-│   ├── Copernicus_DSM_90m_...
+│   ├── glo90_...north.tif
+│   ├── glo90_...south.tif
 │   └── ...
 ```
 
